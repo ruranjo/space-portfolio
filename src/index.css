@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: pink; /* Fallback para navegadores que no admiten clases de Tailwind personalizadas */
+    background-color: theme('colors.myBackground'); /* Utiliza el color personalizado definido en tailwind.config.js */
+    font-family: "Poppins", sans-serif;
+    color: theme('colors.primary');
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Ajusta este valor según la altura deseada */
+    }
+}
+
+/* Aplicación de la animación usando una clase personalizada */
+.animate-float {
+    display: inline-block; /* Esto permite que la transformación funcione correctamente */
+    animation: floatAnimation 3s ease-in-out infinite;
+}
