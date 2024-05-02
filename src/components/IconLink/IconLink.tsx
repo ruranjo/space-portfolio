@@ -10,10 +10,12 @@ interface Props {
 
 const IconLink: React.FC<Props> = ({ active, href, icon: Icon, title }) => {
     return (
-        <a href={href} title={title} className={`icon-link text-textColor ${active ? 'active' : ''}`} style={{ display: 'inline-block', lineHeight: 0 }}>
+        <a href={href} title={title} className={`transition-transform duration-300 ease-in-out hover:scale-125 icon-link text-textColor ${active ? 'active' : ''}`} style={{ display: 'inline-block', lineHeight: 0 }}>
             {Icon && <Icon size={32} />} {/* Ajusta el tamaño del icono a 32 píxeles */}
         </a>
     );
 }
+
+//className=""
 
 export default IconLink;

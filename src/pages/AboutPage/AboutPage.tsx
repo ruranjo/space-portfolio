@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { AboutSection, ExperienceSection } from '../../components';
+import { AboutSection, ExperienceSection, VideoSection } from '../../components';
 
 const AboutPage: React.FC<{}> = () => {
 
@@ -11,6 +11,7 @@ const AboutPage: React.FC<{}> = () => {
     <div className='flex flex-col justify-between h-full'>
       <AboutSection />
       <ExperienceSection  />
+      <VideoSection />
     </div>
   );
 }

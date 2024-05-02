@@ -1,0 +1,34 @@
+.container {
+ 
+  position: relative; /* Ensure it can contain absolutely positioned children */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Prevents overflowing content */
+}
+
+.absolute-container {
+  position: absolute;
+  inset: 0;
+}
+
+.fixed-container {
+  position: fixed;
+  inset: 0;
+}
+
+.space {
+  width: var(--size);
+  height: var(--size);
+  background: white;
+  box-shadow: var(--space-layer);
+  position: absolute; /* Always absolute within its context */
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+  animation: move var(--duration) linear infinite;
+}
+
+@keyframes move {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100vh); }
+}

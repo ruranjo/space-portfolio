@@ -1,3 +1,6 @@
 export * from './IconLink'
 export * from './AboutSection'
 export * from './ExperienceSection'
+export * from './VideoSection'
+export * from './ItemBlog'
+export * from './BackgroundStars'
