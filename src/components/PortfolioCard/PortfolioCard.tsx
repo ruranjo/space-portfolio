@@ -15,7 +15,6 @@ interface Props {
 const PortfolioCard:React.FC<Props> = ({id, title, image, urlDemo, urlGithub}) => {
     
     
-
     return (
         <div
             key={id}
@@ -26,7 +25,7 @@ const PortfolioCard:React.FC<Props> = ({id, title, image, urlDemo, urlGithub}) =
             <img
                 src={image}
                 alt="Image"
-                className="w-full md:w-[200px] rounded-2xl h-auto"
+                className="w-[90%] md:w-[200px] rounded-2xl h-auto"
             />
 
             <div className="flex gap-5 mt-5">

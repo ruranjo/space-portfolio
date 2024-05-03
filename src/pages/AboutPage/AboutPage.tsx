@@ -4,7 +4,7 @@ import { AboutSection, ExperienceSection, VideoSection } from '../../components'
 const AboutPage: React.FC<{}> = () => {
 
   useEffect(() => {
-    document.title = "jose-luis | about";
+    document.title = "SOFIA MILLER | about";
   }, []);
 
   return (

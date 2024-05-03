@@ -7,26 +7,25 @@ import { FaGithub as IconGithub } from "react-icons/fa";
 import { FaYoutube as IconYoutube } from "react-icons/fa";
 import { FaEye as IconDemo } from "react-icons/fa";
 
-import HeroAstro from "../assets/images/heroAstro.png";
-import BgStars from "../assets/images/stars.png";
-import IconAvatar from "../assets/images/avatar.png";
+import HeroAstro from "../assets/images/heroAstro.webp";
+import IconAvatar from "../assets/images/avatar.webp";
 
-import PlanetPic from "../assets/images/planet.png";
-import IconCursor from "../assets/images/cursorIcon.png";
-import IconServer from "../assets/images/serverIcon.png";
-import IconUi from "../assets/images/uiIcon.png";
+import PlanetPic from "../assets/images/planet.webp";
+import IconCursor from "../assets/images/cursorIcon.webp";
+import IconServer from "../assets/images/serverIcon.webp";
+import IconUi from "../assets/images/uiIcon.webp";
 
-import IconCss from "../assets/skills/css.png";
-import IconFigma from "../assets/skills/figma.png";
-import IconGraphql from "../assets/skills/graphql.png";
-import IconHtml from "../assets/skills/html.png";
-import IconMongodb from "../assets/skills/mongodb.png";
-import IconNode from "../assets/skills/node.png";
-import IconReact from "../assets/skills/react.png";
+import IconCss from "../assets/skills/css.webp";
+import IconFigma from "../assets/skills/figma.webp";
+import IconGraphql from "../assets/skills/graphql.webp";
+import IconHtml from "../assets/skills/html.webp";
+import IconMongodb from "../assets/skills/mongodb.webp";
+import IconNode from "../assets/skills/node.webp";
+import IconReact from "../assets/skills/react.webp";
 
-import IconGoogle from "../assets/history/google.png";
-import IconMicrosoft from "../assets/history/microsoft.png";
-import IconNetflix from "../assets/history/netflix.png";
+import IconGoogle from "../assets/history/google.webp";
+import IconMicrosoft from "../assets/history/microsoft.webp";
+import IconNetflix from "../assets/history/netflix.webp";
 
 import video1 from "../assets/videos/video1.webp";
 import video2 from "../assets/videos/video2.webp";
@@ -35,14 +34,14 @@ import video4 from "../assets/videos/video4.webp";
 import video5 from "../assets/videos/video5.webp";
 import video6 from "../assets/videos/video6.webp";
 
-import Image1 from "../assets/portfolio/image-1.jpg";
-import Image2 from "../assets/portfolio/image-2.jpg";
-import Image3 from "../assets/portfolio/image-3.jpg";
-import Image4 from "../assets/portfolio/image-4.jpg";
-import Image5 from "../assets/portfolio/image-5.jpg";
-import Image6 from "../assets/portfolio/image-6.jpg";
-import Image7 from "../assets/portfolio/image-7.jpg";
-import Image8 from "../assets/portfolio/image-8.jpg";
+import Image1 from "../assets/portfolio/image-1.webp";
+import Image2 from "../assets/portfolio/image-2.webp";
+import Image3 from "../assets/portfolio/image-3.webp";
+import Image4 from "../assets/portfolio/image-4.webp";
+import Image5 from "../assets/portfolio/image-5.webp";
+import Image6 from "../assets/portfolio/image-6.webp";
+import Image7 from "../assets/portfolio/image-7.webp";
+import Image8 from "../assets/portfolio/image-8.webp";
 
 export {
     Image1,
@@ -57,7 +56,6 @@ export {
 
 export {
     HeroAstro,
-    BgStars,
     IconAvatar,
     PlanetPic,
     IconCursor,
